@@ -2,7 +2,7 @@ import backgroundImg from 'assets/wildfire-bg.jpg'
 
 const HeaderTitle = (props) => {
     return (
-        <div className="header grid">
+        <div className="header grid margins">
             <img
                 className="backgroundImg"
                 src={backgroundImg}

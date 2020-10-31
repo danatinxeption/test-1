@@ -7,17 +7,43 @@ body {
     display: block;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.green-background {
+    background-color: lightgreen;
+}
+
+.lighter-green-background {
+    background-color: greenyellow;
+}
+
+.brown-background {
+    background-color: burlywood;
+}
+
+.footer {
+    background-color: chocolate;
+}
+
+.two-column {
+    column-count: 2;
+}
+
 .container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    background-color: azure;
 }
 
 .content {
     grid-column: 1;
     grid-row: auto;
-    background-color: burlywood;
 }
 
 .header {
@@ -29,7 +55,13 @@ body {
 .title {
     position: relative;
     z-index: 1;
-    /* color: white; */
+    color: white;
+    /* text-align: center; */
+}
+
+.margins {
+    padding: 3vh 3vh;
+    min-height: 100px;
 }
 
 .backgroundImg {
@@ -45,7 +77,6 @@ body {
 
 .row {
     grid-column: 1;
-    background-color: orange;
 }
 
 .center {
