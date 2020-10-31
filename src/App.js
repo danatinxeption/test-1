@@ -1,7 +1,10 @@
+import Content from 'components/Content'
+import './App.css'
+
 function App() {
   return (
     <div className="App">
-      Hola mundo
+      <Content />
     </div>
   );
 }
