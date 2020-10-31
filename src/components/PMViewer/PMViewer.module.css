@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+}
+
+.thead {
+    background-color: brown;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}

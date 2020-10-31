@@ -1,5 +1,6 @@
 import NavBar from 'components/NavBar'
 import HeaderTitle from 'components/HeaderTitle'
+import PMViewer from 'components/PMViewer'
 
 const Content = (props) => {
     return (
@@ -34,6 +35,9 @@ const Content = (props) => {
                             <p>Sed eget cursus elit. Aenean ac interdum leo, nec imperdiet lacus. Curabitur convallis ipsum et vestibulum faucibus. Quisque ac blandit risus. Phasellus sit amet ex luctus, bibendum elit nec, porta.</p>
                         </div>
                     </div>
+                </div>
+                <div className="content margins table-background">
+                    <PMViewer />
                 </div>
                 <div className="row margins center-text brown-background">
                     <div className="grid">
